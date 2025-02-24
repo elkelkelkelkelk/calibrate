@@ -9,7 +9,7 @@
         "uniapp"
     ],
     "license": "MIT",
-    "main": "components/calibrate.vue",
+    "main": "pages/index",
     "versionCode": "100",
     "transformPx": false,
     /* 5+App特有相关 */

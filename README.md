@@ -51,16 +51,16 @@ const handleConfirm = (value) => {
 
 
 
-| 属性名       | 类型    |  默认值   | 说明                                                         |
-| ------------ | ------- | -------- | ------------------------------------------------------------ |
-| title        | String  | ' 编辑' | 组件标题，显示在组件顶部                                     |
-| defaultValue | Number  | 0       | 校准的默认值                                                 |
-| unit         | String  | 'cm'    | 校准值的单位，可自定义，如 'cm'、'mm' 等                     |
-| scaleNum     | Number  | 330     | 刻度总数，单位为最小刻度单位，例如若单位为 'cm'，则默认有 330 个刻度 |
-| cancelText   | String  | ' 取消' | 取消按钮的显示文案                                           |
-| confirmText  | String  | ' 确定' | 确定按钮的显示文案                                           |
-| showCloseBtn | Boolean | true    | 是否显示关闭按钮                                             |
-| showTitle    | Boolean | true    | 是否显示标题                                                 |
+| 属性名       | 类型    |           默认值            | 说明                                                         |
+| ------------ | ------- | --------------------------- | ------------------------------------------------------------ |
+| title        | String  |           ' 编辑'           | 组件标题，显示在组件顶部                                     |
+| defaultValue | Number  |              0              | 校准的默认值                                                 |
+| unit         | String  |           'cm'              | 校准值的单位，可自定义，如 'cm'、'mm' 等                     |
+| scaleNum     | Number  |             330             | 刻度总数，单位为最小刻度单位，例如若单位为 'cm'，则默认有 330 个刻度 |
+| cancelText   | String  |           ' 取消'           | 取消按钮的显示文案                                           |
+| confirmText  | String  |           ' 确定'           | 确定按钮的显示文案                                           |
+| showCloseBtn | Boolean |            true             | 是否显示关闭按钮                                             |
+| showTitle    | Boolean |            true             | 是否显示标题                                                 |
 
 ## 四、组件事件
 
