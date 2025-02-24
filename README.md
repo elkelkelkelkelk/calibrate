@@ -6,7 +6,7 @@
 
 ### 组件效果展示
 
-![Snipaste_2025-02-24_13-58-12](src\static\img.png)
+![Snipaste_2025-02-24_13-58-12](./src/static/img.png)
 
 
 
