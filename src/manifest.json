@@ -9,11 +9,17 @@
         "uniapp"
     ],
     "license": "MIT",
-    "main": "pages/index",
+    "main": "pages/elk-setting/elk-setting",
     "versionCode": "100",
     "transformPx": false,
     /* 5+App特有相关 */
     "app-plus": {
+        "easycom": {
+            "autoscan": true,
+            "custom": {
+                "component": "src/components"
+            }
+        },
         "usingComponents": true,
         "nvueStyleCompiler": "uni-app",
         "compilerVersion": 3,

@@ -110,10 +110,18 @@
   }
   
   function hide() {
+    uni.showToast({
+      title: '点击取消',
+      icon: 'none'
+    });
     emit('hide');
   }
   
   const confirm = () => {
+    uni.showToast({
+      title: '点击确定',
+      icon: 'none'
+    });
     emit('confirm', val.value);
   }
   </script>

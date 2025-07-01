@@ -1,24 +1,80 @@
 {
   "name": "calibrate-scale",
-  "version": "1.0.0",
+  "description": "A highly customizable calibration component for Vue 3",
+  "version": "1.0.2",
+  "author": "不爱说话郭德纲 <Gost595@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elkelkelkelkelk/calibrate"
+  },
+  "funding": [
+    {
+      "type": "git",
+      "url": "https://gitee.com/LXLGitee13"
+    },
+    {
+      "type": "git",
+      "url": "https://juejin.cn/user/4103820476156712"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/elkelkelkelkelk/calibrate/issues"
+  },
+  "main": "./dist/calibrate-scale.umd.js",
+  "module": "./dist/calibrate-scale.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/calibrate-scale.es.js",
+      "require": "./dist/calibrate-scale.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Vue TS Uniapp"
+  ],
   "scripts": {
-    "dev:custom": "uni -p",
+    "dev": "vite",
     "dev:h5": "uni",
-    "build:h5": "uni build",
-    "type-check": "vue-tsc --noEmit"
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@dcloudio/uni-app": "3.0.0-4030620241128001",
-    "@dcloudio/uni-components": "3.0.0-4030620241128001",
-    "@dcloudio/uni-h5": "3.0.0-4030620241128001",
-    "vue": "^3.4.21"
+    "@dcloudio/uni-app": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-app-harmony": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-app-plus": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-components": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-h5": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-alipay": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-baidu": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-harmony": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-jd": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-kuaishou": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-lark": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-qq": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-toutiao": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-mp-xhs": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-4070320250627001",
+    "vue": "3.5.17",
+    "vue-i18n": "^9.1.9"
   },
   "devDependencies": {
-    "@dcloudio/types": "^3.4.8",
-    "@dcloudio/vite-plugin-uni": "3.0.0-4030620241128001",
+    "@dcloudio/types": "^3.4.15",
+    "@dcloudio/uni-automator": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-cli-shared": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/uni-stacktracey": "3.0.0-alpha-4070320250627001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4070320250627001",
+    "@vue/runtime-core": "^3.4.21",
     "@vue/tsconfig": "^0.1.3",
     "typescript": "^4.9.4",
-    "vite": "5.2.8",
+    "vite": "4.4.11",
+    "@vitejs/plugin-vue": "4.2.3",
     "vue-tsc": "^1.0.24"
   }
 }
